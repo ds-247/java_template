@@ -2,6 +2,13 @@ import java.util.*;
 import java.io.*;
  
 public class Main{
+    final private static int IMAX = Integer.MAX_VALUE;
+    final private static int IMIN = Integer.MIN_VALUE;
+    final private static long LMAX = Long.MAX_VALUE;
+    final private static long LMIN = Long.MIN_VALUE;
+    
+    
+    
     static class FastReader{
         BufferedReader br;
         StringTokenizer st;
@@ -62,6 +69,10 @@ public class Main{
             FastReader in=new FastReader();
             FastWriter out = new FastWriter();
             
+            // pre processing goes here ...
+
+
+            // your code goes here...
             int n = in.nextInt();
             System.out.println(n);
             
